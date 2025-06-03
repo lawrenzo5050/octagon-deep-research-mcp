@@ -25,7 +25,7 @@ const OCTAGON_API_BASE_URL = process.env.OCTAGON_API_BASE_URL || "https://api.oc
 
 if (!OCTAGON_API_KEY) {
   console.error("Error: OCTAGON_API_KEY is not set in the environment variables");
-  console.error("Please set the OCTAGON_API_KEY environment variable or use 'env OCTAGON_API_KEY=your_key npx -y deep-research-mcp'");
+  console.error("Please set the OCTAGON_API_KEY environment variable or use 'env OCTAGON_API_KEY=your_key npx -y octagon-deep-research-mcp'");
   process.exit(1);
 }
 

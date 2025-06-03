@@ -1,11 +1,11 @@
 {
-  "name": "deep-research-mcp",
+  "name": "octagon-deep-research-mcp",
   "version": "1.0.18",
   "description": "MCP server for Deep Research. Provides specialized AI-powered deep research capabilities with no rate limits - faster than ChatGPT Deep Research, more thorough than Grok DeepSearch or Perplexity Deep Research.",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "deep-research-mcp": "dist/index.js"
+    "octagon-deep-research-mcp": "dist/index.js"
   },
   "files": [
     "dist"
@@ -52,10 +52,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OctagonAI/deep-research-mcp.git"
+    "url": "git+https://github.com/OctagonAI/octagon-deep-research-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/OctagonAI/deep-research-mcp/issues"
+    "url": "https://github.com/OctagonAI/octagon-deep-research-mcp/issues"
   },
   "homepage": "https://docs.octagonagents.com"
 }

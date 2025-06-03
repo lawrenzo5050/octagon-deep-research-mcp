@@ -1,6 +1,6 @@
-# Deep Research MCP
+# Octagon Deep Research MCP
 
-![Favicon](https://docs.octagonagents.com/logo.svg) The Deep Research MCP server provides specialized AI-powered comprehensive research and analysis capabilities by integrating with advanced deep research agents. No rate limits, faster than ChatGPT Deep Research, more thorough than Grok DeepSearch or Perplexity Deep Research. Add unlimited deep research functionality to any MCP client including Claude Desktop, Cursor, and other popular MCP-enabled applications.
+![Favicon](https://docs.octagonagents.com/logo.svg) The Octagon Deep Research MCP server provides specialized AI-powered comprehensive research and analysis capabilities by integrating with advanced deep research agents. No rate limits, faster than ChatGPT Deep Research, more thorough than Grok DeepSearch or Perplexity Deep Research. Add unlimited deep research functionality to any MCP client including Claude Desktop, Cursor, and other popular MCP-enabled applications.
 
 **Powered by [Octagon AI](https://docs.octagonagents.com)** - Learn more about the Deep Research Agent at [docs.octagonagents.com](https://docs.octagonagents.com/guide/agents/deep-research-agent.html)
 
@@ -49,7 +49,7 @@
 
 ## Get Your Octagon API Key
 
-To use Deep Research MCP, you need to:
+To use Octagon Deep Research MCP, you need to:
 
 1. Sign up for a free account at [Octagon](https://app.octagonai.co/signup/?redirectToAfterSignup=https://app.octagonai.co/api-keys)
 2. After logging in, from left menu, navigate to **API Keys** 
@@ -58,7 +58,7 @@ To use Deep Research MCP, you need to:
 
 ## Prerequisites
 
-Before installing or running Deep Research MCP, you need to have `npx` (which comes with Node.js and npm) installed on your system.
+Before installing or running Octagon Deep Research MCP, you need to have `npx` (which comes with Node.js and npm) installed on your system.
 
 ### Mac (macOS)
 
@@ -98,7 +98,7 @@ If you see version numbers for all three, you are ready to proceed with the inst
 
 ### Running on Claude Desktop
 
-To configure Deep Research MCP for Claude Desktop:
+To configure Octagon Deep Research MCP for Claude Desktop:
 
 1. Open Claude Desktop
 2. Go to Settings > Developer > Edit Config
@@ -106,9 +106,9 @@ To configure Deep Research MCP for Claude Desktop:
 ```json
 {
   "mcpServers": {
-    "deep-research-mcp": {
+    "octagon-deep-research-mcp": {
       "command": "npx",
-      "args": ["-y", "deep-research-mcp@latest"],
+      "args": ["-y", "octagon-deep-research-mcp@latest"],
       "env": {
         "OCTAGON_API_KEY": "YOUR_API_KEY_HERE"
       }
@@ -123,21 +123,21 @@ To configure Deep Research MCP for Claude Desktop:
 Configuring Cursor Desktop 🖥️
 Note: Requires Cursor version 0.45.6+
 
-To configure Deep Research MCP in Cursor:
+To configure Octagon Deep Research MCP in Cursor:
 
 1. Open Cursor Settings
 2. Go to Features > MCP Servers 
 3. Click "+ Add New MCP Server"
 4. Enter the following:
-   - Name: "deep-research-mcp" (or your preferred name)
+   - Name: "octagon-deep-research-mcp" (or your preferred name)
    - Type: "command"
-   - Command: `env OCTAGON_API_KEY=your-octagon-api-key npx -y deep-research-mcp`
+   - Command: `env OCTAGON_API_KEY=your-octagon-api-key npx -y octagon-deep-research-mcp`
 
-> If you are using Windows and are running into issues, try `cmd /c "set OCTAGON_API_KEY=your-octagon-api-key && npx -y deep-research-mcp"`
+> If you are using Windows and are running into issues, try `cmd /c "set OCTAGON_API_KEY=your-octagon-api-key && npx -y octagon-deep-research-mcp"`
 
 Replace `your-octagon-api-key` with your Octagon API key.
 
-After adding, refresh the MCP server list to see the new tools. The Composer Agent will automatically use Deep Research MCP when appropriate, but you can explicitly request it by describing your research needs. Access the Composer via Command+L (Mac), select "Agent" next to the submit button, and enter your query.
+After adding, refresh the MCP server list to see the new tools. The Composer Agent will automatically use Octagon Deep Research MCP when appropriate, but you can explicitly request it by describing your research needs. Access the Composer via Command+L (Mac), select "Agent" next to the submit button, and enter your query.
 
 ### Running on Windsurf
 
@@ -146,9 +146,9 @@ Add this to your `./codeium/windsurf/model_config.json`:
 ```json
 {
   "mcpServers": {
-    "deep-research-mcp": {
+    "octagon-deep-research-mcp": {
       "command": "npx",
-      "args": ["-y", "deep-research-mcp@latest"],
+      "args": ["-y", "octagon-deep-research-mcp@latest"],
       "env": {
         "OCTAGON_API_KEY": "YOUR_API_KEY_HERE"
       }
@@ -160,13 +160,13 @@ Add this to your `./codeium/windsurf/model_config.json`:
 ### Running with npx
 
 ```bash
-env OCTAGON_API_KEY=your_octagon_api_key npx -y deep-research-mcp
+env OCTAGON_API_KEY=your_octagon_api_key npx -y octagon-deep-research-mcp
 ```
 
 ### Manual Installation
 
 ```bash
-npm install -g deep-research-mcp
+npm install -g octagon-deep-research-mcp
 ```
 
 ## Documentation

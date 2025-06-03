@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Deep Research MCP Run Script
+# Octagon Deep Research MCP Run Script
 
-echo "Starting Deep Research MCP..."
+echo "Starting Octagon Deep Research MCP..."
 
 # Check if the dist directory exists, if not, build the project
 if [ ! -d "./dist" ]; then

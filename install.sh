@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Deep Research MCP Installation Script
+# Octagon Deep Research MCP Installation Script
 
-echo "Installing Deep Research MCP..."
+echo "Installing Octagon Deep Research MCP..."
 
 # Check if Node.js is installed
 if ! command -v node &> /dev/null; then
@@ -33,26 +33,26 @@ fi
 
 echo "Installation complete!"
 echo ""
-echo "There are multiple ways to use the Deep Research MCP:"
+echo "There are multiple ways to use the Octagon Deep Research MCP:"
 echo ""
 echo "1. Run directly with your API key:"
 echo "   env OCTAGON_API_KEY=your_octagon_api_key node ./dist/index.js"
 echo ""
 echo "2. Install globally and run with npx:"
 echo "   npm install -g ."
-echo "   env OCTAGON_API_KEY=your_octagon_api_key npx deep-research-mcp"
+echo "   env OCTAGON_API_KEY=your_octagon_api_key npx octagon-deep-research-mcp"
 echo ""
 echo "3. To use with Claude Desktop, add the following to your claude_desktop_config.json:"
 echo '{
   "mcpServers": {
-    "deep-research-mcp": {
+    "octagon-deep-research-mcp": {
       "command": "env",
-      "args": ["OCTAGON_API_KEY=your_octagon_api_key", "npx", "-y", "deep-research-mcp"]
+      "args": ["OCTAGON_API_KEY=your_octagon_api_key", "npx", "-y", "octagon-deep-research-mcp"]
     }
   }
 }'
 echo ""
 echo "4. To use with Cursor, add a new MCP server with:"
-echo "   - Name: deep-research-mcp"
+echo "   - Name: octagon-deep-research-mcp"
 echo "   - Type: command"
-echo "   - Command: env OCTAGON_API_KEY=your_octagon_api_key npx -y deep-research-mcp" 
+echo "   - Command: env OCTAGON_API_KEY=your_octagon_api_key npx -y octagon-deep-research-mcp" 
