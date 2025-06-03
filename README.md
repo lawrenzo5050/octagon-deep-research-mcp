@@ -5,8 +5,6 @@
 **Powered by [Octagon AI](https://docs.octagonagents.com)** - Learn more about the Deep Research Agent at [docs.octagonagents.com](https://docs.octagonagents.com/guide/agents/deep-research-agent.html)
 
 [![Demo](https://img.youtube.com/vi/yh1cyrm9aus/0.jpg)](https://youtu.be/yh1cyrm9aus)
-[![Demo](https://docs.octagonagents.com/octagon-deep-research-vs-chatgpt.png)](https://youtu.be/yh1cyrm9aus)
-
 
 ## 🏆 Why Teams Choose Octagon's Enterprise-Grade Deep Research API
 
