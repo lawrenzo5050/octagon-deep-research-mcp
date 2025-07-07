@@ -16,3 +16,5 @@ RUN npm run build
 
 # Run the server
 CMD ["node", "dist/index.js"] 
+
+EXPOSE 5050
