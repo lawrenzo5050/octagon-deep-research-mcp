@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
     "test": "echo \"No tests specified\"",
-    "start": "node dist/index.js",
+    "start": "node dist/api-wrapper.js",
     "lint": "echo \"No linting configured\"",
     "format": "echo \"No formatting configured\"",
     "prepare": "npm run build",
